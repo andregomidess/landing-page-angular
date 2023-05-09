@@ -1,1 +1,23 @@
-@import '../app.component.scss'
+@import '../app.component.scss';
+@import '../../dist/scss/variables.scss';
+
+.intro-content {
+  align-items: center;
+  padding: 10%;
+
+  .intro-text-content{
+    width: 45%;
+    h1{
+      margin-bottom: 20px;
+    }
+
+  }
+  .intro-img{
+    width: 55%;
+    img{
+      max-width: 100%;
+      max-height: auto;
+    }
+  }
+
+}
