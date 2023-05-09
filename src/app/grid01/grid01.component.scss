@@ -1,0 +1,24 @@
+@import '../app.component.scss';
+@import '../../dist/scss/variables.scss';
+
+.grid1-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 12%;
+
+
+  p{
+    width: 100%;
+  }
+
+  .grid-main-heading{
+    margin-bottom: 1rem;
+  }
+
+  .grid-description{
+    margin-bottom: 4rem;
+  }
+
+
+}
