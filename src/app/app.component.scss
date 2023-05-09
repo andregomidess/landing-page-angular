@@ -1,0 +1,13 @@
+@import '../dist/scss/variables.scss';
+
+.bg-main{
+  background-image: url('../assets/images/main_bg.svg');
+  background-size: cover;
+  background-position: center center;
+  color: $white-color;
+}
+
+.white-bg{
+  background-color: $white-color;
+  color: $primary-color;
+}
