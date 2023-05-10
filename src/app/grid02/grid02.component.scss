@@ -2,4 +2,10 @@
 @import '../../dist/scss/variables.scss';
 @import '../grid01/grid01.component.scss';
 
+.grid-edit{
+  width: 100%;
+  img {
+    height: 95%;
+  }
+}
 
