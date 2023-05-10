@@ -12,3 +12,8 @@
   color: $primary-color;
 }
 
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem $gap;
+}
